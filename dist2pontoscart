@@ -1,0 +1,6 @@
+x1 = float(input("Definir x de a:"))
+y1 = float(input("Definir y de a:"))
+x2 = float(input("Definir x de b:"))
+y2 = float(input("Definir y de b:"))
+distancia = float((((x2-x1)**2)+((y2-y1)**2))**0.5)
+print("A distância entre a e b é de ", distancia)
