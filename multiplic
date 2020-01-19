@@ -1,0 +1,3 @@
+numint1 = int(input("Inserir primeiro número inteiro: "))
+numint2 = int(input("Inserir segundo número inteiro: "))
+print ("O resultado da multiplicação é", numint1*numint2)
