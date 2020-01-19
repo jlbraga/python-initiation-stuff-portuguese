@@ -1,0 +1,3 @@
+fahrenheit = float(input("Inserir temperatura em graus Fahrenheit: "))
+celsius = float((5/9)*(fahrenheit-32))
+print("A temperatura em graus Celsius é: ", celsius)
