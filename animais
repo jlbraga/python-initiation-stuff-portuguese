@@ -1,0 +1,38 @@
+print("Qual o animal que deseja vender?")
+print("Código 1: Cobras.")
+print("Código 4: Ratos.")
+print("Código 9: Cães.")
+codigo = input("Escrever o número do código correspondente (1/4/9): ")
+
+if codigo == "1":
+    print("Animal escolhido: cobras.")
+    preco = float(input("Inserir preço desejado de venda ao público: "))
+    margem = ((preco*3)/100)
+    precosemiva = preco + margem
+    precocomiva = preco+((precosemiva*23)/100)
+    print("Margem: ",margem)
+    print("Preço sem I. V. A.: ",precosemiva)
+    print("Preço com I. V. A.: ", precocomiva)
+
+elif codigo == "4":
+    print("Animal escolhido: ratos.")
+    preco = float(input("Inserir preço desejado de venda ao público: "))
+    margem = ((preco*4)/100)
+    precosemiva = preco + margem
+    precocomiva = preco+((precosemiva*23)/100)
+    print("Margem: ",margem)
+    print("Preço sem I. V. A.: ",precosemiva)
+    print("Preço com I. V. A.: ", precocomiva)
+
+elif codigo == "9":
+    print("Animal escolhido: cães.")
+    preco = float(input("Inserir preço desejado de venda ao público: "))
+    margem = ((preco*2.5)/100)
+    precosemiva = preco + margem
+    precocomiva = preco+((precosemiva*23)/100)
+    print("Margem: ",margem)
+    print("Preço sem I. V. A.: ",precosemiva)
+    print("Preço com I. V. A.: ", precocomiva)
+
+else:
+    print("Código do animal não reconhecido.")
