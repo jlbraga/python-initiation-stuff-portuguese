@@ -1,0 +1,8 @@
+numero = int(input("Inserir um número inteiro: "))
+
+if numero%3 == 0:
+    numero += 1
+
+print (numero)
+
+input("")
