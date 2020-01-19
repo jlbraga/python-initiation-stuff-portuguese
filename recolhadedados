@@ -1,0 +1,10 @@
+#Recolha de dados
+nome = input("Nome: ")
+morada = input("Morada: ")
+telefone = input("Numero: ")
+
+#mostrar resultados
+print("##########")
+print("NOME: ", nome)
+print("MORADA: ", morada)
+print("TELEFONE: ", telefone)
