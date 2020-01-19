@@ -1,0 +1,3 @@
+value1 = float(input("Definir número real 1:"))
+value2 = float(input("Definir número real 2:"))
+print ("Média", (value1+value2)/2)
