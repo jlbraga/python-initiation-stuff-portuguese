@@ -1,0 +1,3 @@
+cateto1 = float(input("Inserir cateto 1: "))
+cateto2 = float(input("Inserir cateto 2: "))
+print ("Hipotenusa =", ((cateto1**2 + cateto2**2)**0.5))
