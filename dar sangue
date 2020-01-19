@@ -1,0 +1,5 @@
+idade = int(input("Inserir idade do/a dador/a:"))
+if idade >17 and idade <68:
+    print("A pessoa pode dar sangue.")
+else:
+    print("A pessoa não pode dar sangue.")
