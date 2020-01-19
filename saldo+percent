@@ -1,0 +1,3 @@
+saldo = float(input("Insira aqui o saldo: "))
+percentagem = float((1*100)/saldo)
+print ("Saldo corrigido para ", saldo + percentagem)
