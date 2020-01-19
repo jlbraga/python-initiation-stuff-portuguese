@@ -1,0 +1,3 @@
+maior = float(input("Inserir comprimento do lado maior do retângulo: "))
+menor = float(input("Inserir comprimento do lado menor do retângulo: "))
+print("A área do retângulo é de ", maior * menor)
