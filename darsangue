@@ -1,0 +1,5 @@
+salario = float(input("Inserir salário do/a funcionário/a:"))
+if salario >600:
+    print("A sobretaxa de I. R. S. de 3,5% sobre o excedente ao salário mínimo nacional, para este salário, é de",(((salario-600)*3.5)/100))
+else:
+    print("Este salário está isento da sobretaxa de I. R. S. de 3,5% sobre o excedente ao salário mínimo nacional.")
