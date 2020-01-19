@@ -1,0 +1,38 @@
+pc = 0.1895
+pi = 0.1875
+pe = 0.1754
+mge = 0.1572
+eop = 0.1311
+
+kw = float(input("Inserir Kilowatts consumidos: "))
+
+print("Tipos de cliente:")
+print("«pc» para particulares do continente;")
+print("«pi» para particulares das ilhas;")
+print("«pe» para pequenas empresas;")
+print("«mge» para médias e grandes empresas;")
+print("«eop» para estado e organismos públicos.")
+tipocli = input("Insira o tipo de cliente em questão: ")
+
+if tipocli == "pc":
+    taxa = ((kw*pc)*23)/100
+    valor = (kw*pc)+taxa
+    print("O valor a pagar em euros é de",valor)
+elif tipocli == "pi":
+    taxa = ((kw*pi)*23)/100
+    valor = (kw*pi)+taxa
+    print("O valor a pagar em euros é de",valor)
+elif tipocli == "pe":
+    taxa = ((kw*pe)*23)/100
+    valor = (kw*pe)+taxa
+    print("O valor a pagar em euros é de",valor)
+elif tipocli == "mge":
+    taxa = ((kw*mge)*23)/100
+    valor = (kw*mge)+taxa
+    print("O valor a pagar em euros é de",valor)
+elif tipocli == "eop":
+    taxa = ((kw*eop)*23)/100
+    valor = (kw*eop)+taxa
+    print("O valor a pagar em euros é de",valor)
+else:
+    print("Categoria não reconhecida.")
