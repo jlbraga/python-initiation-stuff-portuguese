@@ -1,0 +1,28 @@
+nota1 = float(input("Inserir nota do primeiro teste: "))
+nota2 = float(input("Inserir nota do segundo teste: "))
+
+media = ((nota1+nota2)/2)
+
+print("A nota final do aluno é de",media)
+
+if media >=10 and (nota1 >= 8.5 and nota2 >= 9):
+    print("O aluno está aprovado.")
+
+    if media >= 17:
+        print("O aluno tem que fazer defesa oral.")
+
+        comparencia = (input("O aluno compareceu à defesa oral? S/N: "))
+
+        if comparencia == "s":
+            print("A nota deverá ser atribuída pelo/a professor/a.")
+        elif comparencia == "n":
+            print("A nota do aluno será de 17 valores por não ter comparecido à defesa oral.")
+        else:
+            print("Resposta não reconhecida.")
+
+    else:
+        print("O aluno não vai à defesa oral.")
+
+else:
+    print("O aluno não está aprovado.")
+
