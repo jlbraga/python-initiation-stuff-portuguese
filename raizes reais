@@ -1,0 +1,7 @@
+a = float(input("Inserir a: "))
+b = float(input("Inserir b: "))
+c = float(input("Inserir c: "))
+raizreal1 = float((-b-((b**2)-(4*(a*c))**0.5))/(2*a))
+raizreal2 = float((-b+((b**2)-(4*(a*c))**0.5))/(2*a))
+print("A primeira raiz real de x é: ", raizreal1)
+print("A segunda raiz real de x é: ",raizreal2)
