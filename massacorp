@@ -1,0 +1,12 @@
+peso = float(input("Inserir peso da pessoa: "))
+altura = float(input("Inserir altura da pessoa: "))
+imc = (peso/(altura**2))
+print("O índice de massa corporal desta pessoa é de",imc)
+if imc <=18.5:
+    print("O peso é abaixo do recomendado.")
+elif imc <=25:
+    print("O peso é normal.")
+elif imc <=30:
+    print("O peso é acima do recomendado.")
+else:
+    print("O peso é muito acima do recomendado")
