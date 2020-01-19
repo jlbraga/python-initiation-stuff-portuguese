@@ -1,0 +1,3 @@
+numero1 = float(input("Primeiro número: "))
+numero2 = float(input("Segundo número: "))
+print ("A soma dos 2 números anteriores é", numero1 + numero2)
