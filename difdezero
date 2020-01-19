@@ -1,0 +1,7 @@
+numero = float(input("Inserir um número:"))
+if numero < 0:
+    print("O número é negativo.")
+elif numero == 0:
+    print("O número é igual a zero.")
+else:
+    print("O número é positivo.")
