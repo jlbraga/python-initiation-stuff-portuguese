@@ -1,0 +1,8 @@
+pi = float(3.1415)
+raio = float(input("Introduza valor do raio: "))
+perimetro = float(2 * pi * raio)
+area = float(pi * raio**2)
+
+raio
+print("Área = ", area)
+print ("Perímetro = ", perimetro)
