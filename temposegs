@@ -1,0 +1,4 @@
+horas = int(input("Inserir horas: "))
+minutos = int(input("Inserir minutos: "))
+segundos = int(input("Inserir segundos: "))
+print("O tempo em segundos é: ", (horas*minutos*segundos))
