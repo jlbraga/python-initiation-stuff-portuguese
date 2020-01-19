@@ -1,0 +1,17 @@
+diadasemana = int(input("Escreva aqui o dia correspondente ao da semana (1-7):"))
+if diadasemana == 1:
+    print("«1» corresponde a Domingo.")
+elif diadasemana == 2:
+    print("«2» corresponde a Segunda-Feira.")
+elif diadasemana == 3:
+    print("«3» corresponde a Terça-Feira.")
+elif diadasemana == 4:
+    print("«4» corresponde a Quarta-Feira.")
+elif diadasemana == 5:
+    print("«5» corresponde a Quinta-Feira.")
+elif diadasemana == 6:
+    print("«6» corresponde a Sexta-Feira.")
+elif diadasemana == 7:
+    print("«7» corresponde a Sábado.")
+else:
+    print("O dia é inválido.")
