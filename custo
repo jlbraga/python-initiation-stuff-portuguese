@@ -1,0 +1,5 @@
+preco = float(input("Inserir preço: "))
+if preco < 100:
+    print("O novo preço é de ", (preco+(preco*10)/100))
+else:
+    print("O novo preço é de ", (preco+(preco*20)/100))
