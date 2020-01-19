@@ -1,0 +1,3 @@
+euros = float(input("Inserir nº. de euros: "))
+conversao = 1.0974
+print ("Dólares: ",euros*conversao,"em 09/10/2019")
