@@ -1,0 +1,9 @@
+a = True
+b = False
+c = False
+d = True
+
+print(a or (b and c) or (not d or not a))
+print (not(not a or b) and (c or d))
+print(b and not c or a and d)
+print(not a and not not c and d)
