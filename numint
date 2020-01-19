@@ -1,0 +1,2 @@
+numint = int(input("Definir número inteiro:"))
+print("O antecessor desse número é", numint-1, "e o seu sucessor é", numint+1)
