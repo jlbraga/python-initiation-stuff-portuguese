@@ -49,6 +49,6 @@ while sexo.lower() != "z":
     sexo = input("Sexo do visitante (m/f, «z» para sair): ")
 
 print("Homens: ", csexom)
-print("Mulheres: " csexom)
+print("Mulheres: ", csexom)
 print("Idade entre 10 e 16: ", cidade1016)
 print("Idade entre 16 e 24: ", cidade1624)
