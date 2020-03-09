@@ -1,0 +1,21 @@
+def soma(n1, n2):
+    lista = [n1, n2]
+    somalista = lista[0] + lista[1]
+    return somalista
+
+quantidadeIdades = 0
+totalIdades = 0
+
+numero = int(input("Número: "))
+
+while numero >= 0:
+    quantidadeIdades += 1
+    totalIdades = soma(totalIdades, numero)
+    numero = int(input("Número: "))
+
+if quantidadeIdades > 0:
+    media = totalIdades / quantidadeIdades
+    print(media)
+
+else:
+    print("Não foram inseridos números.")
