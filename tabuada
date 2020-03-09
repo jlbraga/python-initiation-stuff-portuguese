@@ -1,0 +1,7 @@
+def tabuada(num):
+    for i in range (0,10):
+        print(num, "X", (i + 1), "=", (num * (i + 1)))
+
+num = int(input("Número: "))
+
+tabuada(num)
