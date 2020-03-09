@@ -1,0 +1,25 @@
+contador = 0
+notaminima = 20
+notamaxima = 0
+soma = 0
+
+print("Aluno", contador)
+nota = float(input("Inserir nota do aluno: "))
+
+while nota <= 20:
+    contador += 1
+    soma += nota
+
+    if nota > notamaxima:
+        notamaxima = nota
+
+    if nota < notaminima:
+        notaminima = nota
+   
+    print("Aluno", contador)
+    nota = float(input("Inserir nota do aluno: "))
+
+if nota > 20:
+    print("A nota mínima é de", notaminima)
+    print("A nota máxima é de", notamaxima)
+    print("A nota média é de", soma/contador)
