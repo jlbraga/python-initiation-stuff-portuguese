@@ -1,0 +1,12 @@
+contador = 0
+contadorpares = 0
+
+while contador < 10:
+    numero = int(input("Número: "))
+
+    if numero % 2 == 0:
+        contadorpares +=1
+
+    contador += 1
+
+print("O número de pares inseridos foi ", contadorpares)
