@@ -1,0 +1,17 @@
+nomedoaluno = str
+idademaior = 0
+
+nome = input("Nome do aluno: ")
+
+while nome != "STOP":
+    idade = int(input("Idade do aluno: "))
+
+    if idade > idademaior:
+        idademaior = idade
+        nomedoaluno = nome
+    
+    nome = input("Nome do aluno: ")
+    
+else:
+    print(nomedoaluno)
+    print(idademaior)
