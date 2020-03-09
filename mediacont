@@ -1,0 +1,26 @@
+contador = 0
+soma = 0
+
+numnat = int(input("Inserir número natural: "))
+
+while numnat > 0:
+    soma += numnat
+    contador += 1
+    continuar = input("Deseja continuar? S/N: ")
+    if continuar == "s":
+        numnat = int(input("Inserir número natural: "))
+    elif continuar == "n":
+        print("A média é de", soma/contador)
+    else:
+        print("Resposta inválida.")
+        continuar = input("Deseja continuar? S/N: ")
+else:
+    print("Inserção inválida.")
+    continuar = input("Deseja continuar? S/N: ")
+    if continuar == "s":
+        numnat = int(input("Inserir número natural: "))
+    elif continuar == "n":
+        print("A média é de", soma/contador)
+    else:
+        print("Resposta inválida.")
+        continuar = input("Deseja continuar? S/N: ")
