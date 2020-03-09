@@ -1,0 +1,9 @@
+maior = 0
+numero = float(input("Escrever número: "))
+
+while numero >= 0:
+    if numero > maior:
+        maior = numero
+    numero = float(input("Escrever número: "))
+
+print("O maior número inserido foi", maior)
