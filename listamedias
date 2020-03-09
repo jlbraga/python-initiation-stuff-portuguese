@@ -1,0 +1,34 @@
+def soma(lista):
+    soma = 0
+    for n in lista:
+        soma += n
+    return soma
+
+
+def calculaMedia(lista):
+    s = soma(lista)
+    media = s / len(lista)
+    return media
+
+
+def superiorMedia(lista):
+
+    if len(lista) > 0:
+        media = calculaMedia(lista)
+        print ("Media", media)
+        for n in lista:
+            if n > media:
+                print("Nota", n) 
+    else:
+        print("Sem dados.")
+
+
+lista = []
+
+nota = float (input("Nota: "))
+
+while nota >= 0:
+    lista.append(nota)
+    nota = float (input("Nota: "))
+
+superiorMedia(lista)
