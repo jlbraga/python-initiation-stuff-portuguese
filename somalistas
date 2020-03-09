@@ -1,0 +1,9 @@
+def soma(n1, n2):
+    lista = [n1, n2]
+    somalista = lista[0] + lista[1]
+    return somalista
+
+n1 = float(input("Número 1: "))
+n2 = float(input("Número 2: "))
+
+print(soma(n1, n2))
