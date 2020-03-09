@@ -1,0 +1,6 @@
+contador = 0
+lado = int(input("Determine o comprimento da aresta: "))
+caracter = input("Escolha o caracter a ser usado: ")
+for i in range (lado):
+    contador += 1
+    print (caracter*contador)
