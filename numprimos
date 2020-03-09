@@ -1,0 +1,15 @@
+numero = int(input("Inserir número: "))
+divisor = 2
+naoprimo = 0
+
+while naoprimo == 0 and divisor < numero:
+ 
+    if numero % divisor == 0:
+       naoprimo += 1
+    
+    divisor += 1
+
+if naoprimo > 0:
+    print("Este numero não é primo.")
+else:
+    print("Este número é primo.")
