@@ -1,0 +1,72 @@
+#para criar uma lista:
+frutas = ["morango", "abacate", "manga"]
+
+#para mostrar a lista:
+print(frutas)
+
+#para imprimir a classe de um elemento da lista:
+print(type(frutas[0]))
+
+#para imprimir o primeiro elemento da lista:
+print(frutas[0])
+
+#para imprimir o último:
+print(frutas[-1])
+
+#para imprimir o intervalo (primeiro e último):
+print(frutas[1:3])
+
+#para alterar um elemento:
+frutas[1] = "castanha"
+
+#para imprimir cada elemento da lista:
+for f in frutas:
+    print(f)
+
+#para verificar se existe um elemento na lista:
+if "banana" in frutas:
+    print("Banana existe na lista")
+
+#insere elemento no fim da lista:
+frutas.append("laranja")
+
+#insere elemento na posição 1 da lista:
+frutas.insert(1, "laranja")
+
+#apaga elemento:
+frutas.remove("banana")
+
+#remover o último a ser inserido:
+frutas.pop()
+
+#eliminar o elemento no índice 0:
+del frutas[0]
+
+#apagar a lista:
+del frutas
+
+#colocar a lista sem elementos:
+frutas.clear()
+
+#faz uma cópia da lista para "copia":
+copia = frutas.copy()
+copia = list(frutas)
+
+#unir 2 listas:
+lista1 = ()
+lista2 = ()
+lista3 = lista1 + lista2
+print(lista3)
+
+#adiciona a lista2 no fim da lista1:
+lista1.extend(lista2)
+print(lista1)
+
+#ordenar lista ascendentemente (por defeito):
+frutas.sort()
+
+#ordenar lista descendentemente:
+frutas.sort(reverse=True)
+
+#inverter ordem dos elementos:
+frutas.reverse()
