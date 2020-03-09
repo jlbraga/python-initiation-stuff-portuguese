@@ -1,0 +1,30 @@
+menuescolha = input ("\nMenu:\n\n(c) Clientes\n(f) Fornecedores\n(b) Bancos\n(s) Sair\n\nEscolha a sua opção (c/f/b/s): ")
+
+while menuescolha != "s":
+
+    if menuescolha == "c":
+        print("Área: clientes")
+        voltar = input("Prima «v» para voltar ao menu: ")
+        if voltar == "v":
+            menuescolha = input ("\nMenu:\n\n(c) Clientes\n(f) Fornecedores\n(b) Bancos\n(s) Sair\n\nEscolha a sua opção (c/f/b/s): ")
+        else:
+            print("Resposta inválida.")
+
+    elif menuescolha == "f":
+        print("Área: fornecedores")
+        voltar = input("Prima «v» para voltar ao menu: ")
+        if voltar == "v":
+            menuescolha = input ("\nMenu:\n\n(c) Clientes\n(f) Fornecedores\n(b) Bancos\n(s) Sair\n\nEscolha a sua opção (c/f/b/s): ")
+        else:
+            print("Resposta inválida.")
+
+    elif menuescolha == "b":
+        print("Área: bancos")
+        voltar = input("Prima «v» para voltar ao menu: ")
+        if voltar == "v":
+            menuescolha = input ("\nMenu:\n\n(c) Clientes\n(f) Fornecedores\n(b) Bancos\n(s) Sair\n\nEscolha a sua opção (c/f/b/s): ")
+        else:
+            print("Resposta inválida.")
+
+else:
+    print("Obrigado pela sua escolha, volte sempre.")
