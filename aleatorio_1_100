@@ -1,0 +1,17 @@
+import random
+
+for i in range(1, 11):
+    numero = random.randint(0, 101)
+    print(numero)
+
+#"random" abre a biblioteca, "randint" é a função
+
+#mas podia ser:
+
+import random as r
+
+for i in range(1, 11):
+    numero = r.randint(0, 101)
+    print(numero)
+
+#aqui, "random" é renomeado para "r", só para não ter que se escrever "random"
