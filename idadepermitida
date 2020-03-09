@@ -1,0 +1,54 @@
+csexom = 0
+csexof = 0
+cidade1016 = 0
+cidade1624 = 0
+
+sexo = input("Sexo do visitante (m/f): ")
+while sexo == "m" or sexo == "f":
+    if sexo == "m":
+        csexom += 1
+    elif sexo == "f":
+        csexof += 1
+    else:
+        print("Resposta inválida.")
+        sexo = input("Sexo do visitante: ")
+    
+    idade = int(input("Idade do visitante: "))
+    if idade >=10 and idade <= 16:
+        cidade1016 += 1
+    elif idade >16 and idade <= 24:
+        cidade1624 += 1
+    sexo = input("Sexo do visitante: ")
+print("Quantidade de visitantes masculinos até agora: ",csexom)
+print("Quantidade de visitantes femininos até agora: ",csexof)
+print("Quantidade de visitantes com idades entre 10 e 16 até agora: ",cidade1016)
+print("Quantidade de visitantes com idades entre 16 e 24 até agora: ",cidade1624)
+
+
+#método 2:
+
+sexo = input("Sexo do visitante (m/f, «z» para sair): ")
+while sexo.lower() != "z":
+    sexo = input("Sexo do visitante (m/f, «z» para sair): ")
+    if sexo.lower() == "m" or sexo.lower() == "f":
+        if sexo.lower() == "m":
+            csexom += 1
+        else:
+            csexof += 1
+        
+        idade = int(input("Idade do visitante: "))
+        
+        if idade >= 10 and idade < 16
+            cidade1016 += 1
+        elif idade >16 and idade < 24:
+            cidade1624 += 1
+    
+    else:
+        print("Sexo inválido")
+    
+    sexo = input("Sexo do visitante (m/f, «z» para sair): ")
+
+print("Homens: ", csexom)
+print("Mulheres: " csexom)
+print("Idade entre 10 e 16: ", cidade1016)
+print("Idade entre 16 e 24: ", cidade1624)
