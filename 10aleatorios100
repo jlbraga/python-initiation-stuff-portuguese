@@ -1,0 +1,12 @@
+import random
+
+def aleatorios(lista):
+    lista = []
+    for i in range(1, 11):
+        numero = random.randint(0, 101)
+        lista.append(numero)
+    print(lista)
+
+lista = input("Inserir nome da lista: ")
+
+print(aleatorios(lista))
