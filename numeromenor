@@ -1,0 +1,9 @@
+numero = float(input("Escrever número: "))
+menor = numero
+
+while numero >= 0:
+    if numero < menor:
+        menor = numero
+    numero = float(input("Escrever número: "))
+
+print("O menor número inserido foi", menor)
