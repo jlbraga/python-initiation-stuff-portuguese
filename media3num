@@ -1,0 +1,13 @@
+def CalculaMedia(n1,n2,n3):
+
+    CalculaMedia = (n1 + n2 + n3) / 3
+
+    return CalculaMedia
+
+n1 = int(input("Número 1: "))
+n2 = int(input("Número 2: "))
+n3 = int(input("Número 3: "))
+
+resultado = CalculaMedia(n1, n2, n3)
+
+print("Média: ", resultado)
