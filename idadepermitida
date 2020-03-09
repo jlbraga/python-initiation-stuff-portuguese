@@ -38,7 +38,7 @@ while sexo.lower() != "z":
         
         idade = int(input("Idade do visitante: "))
         
-        if idade >= 10 and idade < 16
+        if idade >= 10 and idade < 16:
             cidade1016 += 1
         elif idade >16 and idade < 24:
             cidade1624 += 1
