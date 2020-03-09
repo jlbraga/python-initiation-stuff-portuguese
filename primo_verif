@@ -1,0 +1,50 @@
+def verifica_primo(numero):
+    primo = True
+    divisor = 2
+    if numero == 0 or numero == 1:
+        primo == False
+    
+    while primo == True and divisor < numero:
+        if numero % divisor == 0:
+            primo = False
+        divisor += 1
+    
+    return primo
+
+def mostra_primo(numero, primo):
+    if primo == True:
+        print(numero, "é primo")
+    else:
+        print(numero, "não é primo")
+
+numero = int(input("Número: "))
+primo = verifica_primo(numero)
+
+mostra_primo(numero, primo)
+
+#método 2:
+
+def verifica_primo(numero):
+    primo = True
+    divisor = 2
+    if numero == 0 or numero == 1:
+        primo == False
+    
+    while primo == True and divisor < numero:
+        if numero % divisor == 0:
+            primo = False
+        divisor += 1
+    
+    return primo
+
+def mostra_primo(numero, primo):
+    primo = verifica_primo(numero)
+
+    if primo == True:
+        print(numero, "é primo")
+    else:
+        print(numero, "não é primo")
+
+numero = int(input("Número: "))
+
+mostra_primo(numero, primo)
