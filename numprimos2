@@ -1,0 +1,10 @@
+numero = int(input("Inserir número: "))
+divisor = 2
+
+for i in range (numero - 1):
+    print(numero, "/", divisor, "=", (numero/divisor))
+    if numero % divisor == 0:
+        print("Resto", numero % divisor, ", este número será primo se não houver resultados com resto maior que 0.")
+    else:
+        print("Resto", numero % divisor, ", este divisor é responsável pelo dividendo já não ser primo.")
+    divisor += 1
