@@ -1,0 +1,21 @@
+numero = int(input("Número de alunos da disciplina de geometria: "))
+contalunos = 0
+notaminima = 20
+notamaxima = 0
+soma = 0
+
+for i in range (numero):
+    contalunos += 1
+    print("Aluno", contalunos)
+    nota = float(input("Inserir nota: "))
+    soma += nota
+    
+    if nota > notamaxima:
+        notamaxima = nota
+
+    if nota < notaminima:
+        notaminima = nota
+    
+print("A nota mínima é de", notaminima)
+print("A nota máxima é de", notamaxima)
+print("A nota média é de", soma/numero)
