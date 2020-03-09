@@ -1,0 +1,5 @@
+lado1 = int(input("Determine o comprimento da horizontal: "))
+lado2 = int(input("Determine o comprimento da vertical: "))
+caracter = input("Escolha o caracter a ser usado: ")
+for i in range (lado2):
+    print(caracter*lado1)
