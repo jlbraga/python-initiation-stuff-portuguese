@@ -1,0 +1,12 @@
+soma = 0
+
+for i in range (10):
+    idade = int(input("Idade: "))
+
+    if idade > 20:
+        soma += idade
+
+if soma > 0:
+    print("A soma das idades acima de 20 é: ",soma)
+else:
+    print("Sem idades superiores a 20.")
