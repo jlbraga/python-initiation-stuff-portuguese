@@ -1,0 +1,7 @@
+import numpy as np
+import matplotlib as mpp
+import matplotlib.pyplot as plt
+
+desempenho = np.array([706322, 923153, 1406072, 11037571, 8183610])
+plt.hist(desempenho, bins=3, range=(1,2))
+plt.show()
