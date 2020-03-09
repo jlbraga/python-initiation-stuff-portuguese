@@ -1,0 +1,7 @@
+nome = input("Nome: ")
+idade = int(input("Idade: "))
+maioridade = 18
+
+maior = idade>=maioridade
+
+print ("O/A", nome, "é maior de idade?", maior)
