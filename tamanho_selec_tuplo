@@ -1,0 +1,5 @@
+tuplo = (1, 2, 3, 4, 5)
+tamanho = len(tuplo)
+print(tamanho)
+numero = tuplo[1]
+print(numero)
