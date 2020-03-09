@@ -1,0 +1,6 @@
+contador = 0
+maximo = int(input("Número máximo de impressões: "))
+
+for i in range(0,maximo,1):
+    contador += 1
+    print(contador)
