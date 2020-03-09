@@ -1,0 +1,28 @@
+def verifica_primo(numero):
+    primo = True
+    divisor = 2
+    if numero == 0 or numero == 1:
+        primo == False
+    
+    while primo == True and divisor < numero:
+        if numero % divisor == 0:
+            primo = False
+        divisor += 1
+    
+    return primo
+
+#na linha abaixo, "primo" foi retirado do argumento de "mostra_primo", e ficou só "numero"
+
+def mostra_primo(numero):
+    primo = verifica_primo(numero)
+
+    if primo == True:
+        print(numero, "é primo")
+    else:
+        print(numero, "não é primo")
+
+iniciointerv = int(input("Inserir início do intervalo: "))
+fiminterv = int(input("Inserir fim do intervalo: "))
+
+for i in range (iniciointerv, fiminterv + 1):
+    mostra_primo(i)
